@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.owl-carousel-one {
+    position: relative;
+}
+
+.owl-carousel-one .item{
+ width: 100%;
+ height: 100vh;
+ background-size: cover;
+ transition: 0.1s ease-in;
+
+}
+
+.owl-carousel-one .items-1{
+    background-image: url("../img/carousel-1.jpg");
+   
+   
+}
+
+
+.owl-carousel-one .items-2{
+    background-image: url("../img/carousel-2.jpg");
+    
+}
+
+/* nav changes  */
+
+
+/* nav changes Ends */
+.owl-carousel-one .owl-prev , .owl-carousel-one .owl-next {
+ position: absolute;
+ top: 45%;
+ font-size: 50px !important;
+ background-position: top center !important;
+ color: #fff !important;
+ font-weight: lighter !important; 
+} 
+
+.owl-carousel-one .owl-prev:hover , .owl-carousel-one .owl-next:hover{
+    background: none !important;
+} 
+
+.owl-carousel-one .owl-prev  {
+    left: 4%;
+
+}
+
+.owl-carousel-one .owl-next {
+    right: 4%;
+}
+
+/* dots changes  */
+
+.owl-carousel-one .owl-dot  {
+
+
+  
+}
+
+.owl-carousel-one .owl-dot span{
+    width: 50px !important;
+    height: 4px !important;
+    background-color: #000 !important;
+
+}
+.owl-carousel-one .owl-dot.active span{
+    width: 50px !important;
+    height: 4px !important;
+    background-color: blueviolet !important;
+}
+
+/* dots changes Ends */
+
+
+
